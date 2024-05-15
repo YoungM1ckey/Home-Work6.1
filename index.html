@@ -10,28 +10,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-      <section>
-        <img src="./images/logo.png" alt="logo_greenshop">
-        <nav>
-          <a href="index.html">
-            Home
-          </a>
-          <a href="#">
-            Shop
-          </a>
-          <a href="#">
-            Plant Care
-          </a>
-          <a href="#">
-            Blog
-          </a>
-        </nav>
-        <button type="button">
-          Login
-        </button>
-      </section>
-      <section>
+  <div class="wrapper">
+    <header class="header">
+      <a class="logo" href="index.html">
+        <img class="imglogo" src="./images/logo.png" alt="logo_greenshop" width="150px" height="34px">
+      </a>
+      <nav class="navigation">
+        <a class="link-nav active-link-nav" href="index.html">Home</a>
+        <a class="link-nav" href="#">Shop</a>
+        <a class="link-nav" href="#">Plant Care</a>
+        <a class="link-nav last-link-nav" href="#">Blog</a>
+      </nav>
+      <button type="button" class="btn-log">
+        <img class="icon-log" src="./images/iconlogin.png" alt="icon-logo" width="20px" height="20px">
+        Login
+      </button>
+    </header>
+    <main>
+      <section class="content">
         <div class="block-left">
           <h1>
             Welcome to GreenShop
@@ -50,6 +46,7 @@
           <img src="./images/flower.png" alt="flower">
         </div>
       </section>
-    </header>
+    </main>
+  </div>
 </body>
 </html>
