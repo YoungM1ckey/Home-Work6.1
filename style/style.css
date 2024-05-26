@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  margin-top: 30px;
+  padding-top: 30px;
   border-bottom: 0.3px solid #46A35880;
 }
 
@@ -31,8 +31,6 @@ body {
 .navigation {
   display: inline-block;
   vertical-align: top;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 8px;
 }
 
@@ -96,8 +94,6 @@ body {
   margin-bottom: 7px;
   margin-left: 3px;
   text-transform: uppercase;
-  display: inline-block;
-  width: 205px;
   letter-spacing: 1.6px;
 }
 
@@ -138,7 +134,7 @@ body {
   width: 537px;
   display: inline-block;
   vertical-align: top;
-  margin: 68px 93px 85px 41px;
+  padding: 68px 93px 85px 41px;
 }
 
 .block-right {
